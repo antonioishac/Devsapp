@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Sep 10 07:49:57 BRT 2019
+#Tue Sep 10 08:51:33 BRT 2019
 5.base=C\:\\chat\\Devsapp\\android\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 42.base=C\:\\chat\\Devsapp\\android\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 22.path=lib/armeabi-v7a/libfolly_json.so
