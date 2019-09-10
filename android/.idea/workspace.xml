@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f4af01f-65f4-4a4c-a5f9-bc8f5d70f4ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/app/BUCK" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devstagram/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devstagram/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/devstagram/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/devstagram/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Devstagram.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Devstagram.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Devstagram.xcodeproj/xcshareddata/xcschemes/Devstagram-tvOS.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Devstagram.xcodeproj/xcshareddata/xcschemes/Devstagram-tvOS.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Devstagram.xcodeproj/xcshareddata/xcschemes/Devstagram.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Devstagram.xcodeproj/xcshareddata/xcschemes/Devstagram.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Devstagram/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Devstagram/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Devstagram/Base.lproj/LaunchScreen.xib" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Devstagram/Base.lproj/LaunchScreen.xib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Devstagram/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Devstagram/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/DevstagramTests/DevstagramTests.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/DevstagramTests/DevstagramTests.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/DevstagramAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/actions/AuthActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/actions/AuthActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/actions/FeedActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/camera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/camera_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/clock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/comments.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/home_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/like_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/like_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/profile_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/search_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/feed/FeedItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/feed/FeedItemFake.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/reducers/AuthReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/reducers/AuthReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/reducers/FeedReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/DevCamera.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/Explore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/Feed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/Preload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/Profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/SignUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/screens/Tabs.js" beforeDir="false" />
-    </list>
+    <list default="true" id="8f4af01f-65f4-4a4c-a5f9-bc8f5d70f4ef" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
