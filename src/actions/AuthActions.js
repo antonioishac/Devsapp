@@ -31,9 +31,11 @@ export const signUpAction = (name, email, password) => {
         //criando o usuario
         firebase.auth().createUserWithEmailAndPassword(email, password)
             .then((user)=>{
-                //pegar o id do usuario que acabou de ser criado
+                
                 let uid = firebase.auth().currentUser.uid;
-                //salvar esse usuario no banco no node users e seu nome
+				
+				// alert(uid);
+				
                 firebase.database().ref('users').child(uid).set({
                     name:name
                 });
