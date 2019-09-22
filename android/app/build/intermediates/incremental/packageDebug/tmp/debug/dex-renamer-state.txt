@@ -1,4 +1,4 @@
-#Tue Sep 10 08:51:32 BRT 2019
-base.0=C\:\\chat\\Devsapp\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Sun Sep 22 11:53:05 BRT 2019
+base.0=/home/aishac/projetos/estudo/react/Devsapp/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

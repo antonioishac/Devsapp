@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\chat\\Devsapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/home/aishac/projetos/estudo/react/Devsapp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aishac\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\554bb12f9bf06830eb8eb7c6dfd9a37e\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/aishac/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9161f11ef4c594310c32ab90fb013338/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/aishac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8fc7928ace94e61960f45c6dcf016b72/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aishac\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\a718b767baa08eb71d65eda444793d4b\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]
