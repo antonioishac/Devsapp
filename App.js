@@ -9,6 +9,7 @@ import Preload from './src/Preload';
 import Home from './src/Home';
 import Conversas from './src/Conversas';
 import SignUp from './src/SignUp';
+import SignIn from './src/SignIn';
 
 let store = createStore(Reducers, applyMiddleware(ReduxThunk));
 
@@ -24,6 +25,9 @@ const AppNavigator = createStackNavigator({
   },
   SignUp: {
     screen:SignUp
+  },
+  SignIn: {
+    screen:SignIn
   }
 });
 

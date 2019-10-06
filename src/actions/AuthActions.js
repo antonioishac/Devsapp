@@ -4,24 +4,24 @@ export const checkLogin = () => {
 
 	return (dispatch) => {
 
-		let user = firebase.auth().currentUser;
+		firebase.auth().onAuthStateChanged((user) => {
 
-		if(user) {
-			dispatch({
-				type:'changeStatus',
-				payload:{
-					status:1
-				}
-			});
-		} else {
-			dispatch({
-				type:'changeStatus',
-				payload:{
-					status:2
-				}
-			});
-		}
-
+			if(user) {
+				dispatch({
+					type:'changeUid',
+					payload:{
+						uid:user.uid
+					}
+				});
+			} else {
+				dispatch({
+					type:'changeStatus',
+					payload:{
+						status:2
+					}
+				});
+			}
+		});
 	}
 };
 
@@ -64,6 +64,41 @@ export const signUpAction = (name, email, password) => {
                         break;
                 }
             });
+    };
+};
+
+export const signInAction = (email, password) => {
+
+    return (dispatch) => {
+		firebase.auth().signInWithEmailAndPassword(email, password)
+			.then((user) => {
+
+				let uid = firebase.auth().currentUser.uid;
+
+				dispatch({
+					type: 'changeUid',
+					payload: {
+						uid:uid
+					}
+				});
+
+			})
+			.catch((error) => {
+				switch(error.code) {
+					case 'auth/invalid-email':
+						alert('E-mail inválido');
+						break;
+					case 'auth/user-disabled':
+						alert('Seu usuário está desativado');
+						break;
+					case 'auth/user-not-found':
+						alert('Não existe este usuário');
+						break;
+					case 'auth/wrong-password':
+						alert('E-mail e/ou senha inválidos');
+						break;
+				}
+			})
     };
 };
 
